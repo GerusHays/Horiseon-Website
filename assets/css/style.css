@@ -1,13 +1,14 @@
+/* The asterisk is covering the entire web page to have zero borders when we add CSS elements as shown below */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* we make the background color of the body white everything below the hero image */
 body {
     background-color: #d9dcd6;
 }
-
+/* header adjusted font added a background color of blue and white text */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,11 +20,11 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/* the letters seo in Horiseon are light gray */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* we moved the nav elements to the right of the webpage and made them a smaller font size than the header of the webpage */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,12 +41,12 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* make the text of a elements white and remove the underline by adding text-decoration:none */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* adjusted the font size of the p elements to be uniform throughout the webpage at 16px */
 p {
     font-size: 16px;
 }
