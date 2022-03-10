@@ -36,7 +36,7 @@ body {
 .header nav ul {
     list-style-type: none;
 }
-
+/* making the list inline instead of vertical list down the webpage */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -50,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* hero image adjusted for height width to fill the page, image linked, cover and center to fill out and center on the webpage */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* having elements move over to the left side of the webpage */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* having elements move over to the right side of the webpage */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* the content element is inline with a reduced width */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* the benefits element is configured in css to be on the right side of the webpage mainly with float, a blue back ground and font family adjusted */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,56 +86,24 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* the following are adjusting the different sections to margin bottom so they arent touching in the webpage and added text color white */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* the following is adjusting the header of each section within aside so its smaller and center */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* the following is adjusting the image to display as a block, margin adjusted to 10px and a max-width of 150px */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* the following have a margin and bottom for the main portion of the webpage to have spacing between the three sections. height set at 300px to be uniform to all 3 elements font family set with a background color of blue and white text */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,52 +111,16 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* image set to 200 px for all 3 images within the main portion of the webpage */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* making the h2 element font size defined and adding a margin so it doesnt sit on top of the paragraph */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer elements, clear is there due to it being next to a float element; both so footer will be below both left and right of the floating element */
 .footer {
     padding: 30px;
     clear: both;

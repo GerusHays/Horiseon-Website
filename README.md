@@ -1,7 +1,7 @@
 # Code Refactor Starter Code
 My goal for this code was to make it easier to read and more accessible. 
 <br />
-To accomplish this i added semantic HTML by replacing the div elements with semantic elements to make it easier to read and flow better.
+To accomplish this i added semantic HTML by replacing the div elements with semantic elements to make it easier to read and flow better and consolidated some of the repeated class elements on css and made the classes with the same elements into one line saving space and making the css file appear less cluttered.
 <br />
 I made it more accessible by including alt attributes into the image src lines so anyone, no matter the disability, may go to our webpage and visualize what the images represent.
 <br />
